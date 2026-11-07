@@ -4,7 +4,8 @@ A Flutter app for perfume makers: save recipes, calculate ingredient amounts for
 
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%7C%20iOS%20%7C%20Web%20%7C%20macOS%20%7C%20Linux-blue)
 ![Flutter](https://img.shields.io/badge/Flutter-3.47-02569B?logo=flutter)
-![Version](https://img.shields.io/badge/version-1.0.0-7C3AED)
+[![Version](https://img.shields.io/github/v/release/hassantvs24/perfumes?color=7C3AED)](https://github.com/hassantvs24/perfumes/releases/latest)
+[![Release APK](https://img.shields.io/badge/📦%20Download-Android%20APK-DB2777)](https://github.com/hassantvs24/perfumes/releases/latest)
 
 ## ✨ Features
 
@@ -24,9 +25,14 @@ flutter pub get
 flutter run            # pick a device (android / windows / chrome ...)
 ```
 
-### Build
+### Download
+
+Grab the latest **Android APK** from the [GitHub Releases page](https://github.com/hassantvs24/perfumes/releases/latest) — no build needed.
+
+### Build from source
 
 ```bash
+flutter pub get
 flutter build apk --release     # Android
 flutter build windows --release # Windows
 ```
